@@ -10,145 +10,32 @@ namespace test
     {
         static void Main(string[] args)
         {
-            string coupleOneWinner = string.Empty;
-            string coupleTwoWinner = string.Empty;
-            string coupleThreeWinner = string.Empty;
             int a = int.Parse(Console.ReadLine());
             int b = int.Parse(Console.ReadLine());
             int c = int.Parse(Console.ReadLine());
             int d = int.Parse(Console.ReadLine());
             int e = int.Parse(Console.ReadLine());
-
-            //Biggest from A and B
-
-            if (a > b)
+            if (a > b && a > c && a > d && a > e)
             {
-                coupleOneWinner = "a";
+                Console.WriteLine(a);
+            }
+            else if (b > a && b > c && b > d && b > e)
+            {
+                Console.WriteLine(b);
+            }
+            else if (c > a && c > b && c > d && c > e)
+            {
+                Console.WriteLine(c);
+            }
+            else if (d > a && d > b && d > c && d > e)
+            {
+                Console.WriteLine(d);
             }
             else
             {
-                coupleOneWinner = "b";
-            }
-            // Biggest from C and D
-            if (c > d)
-            {
-                coupleTwoWinner = "c";
-            }
-            else
-            {
-                coupleTwoWinner = "d";
+                Console.WriteLine(e);
             }
 
-            // The biggest from CoupleOne and CoupleTwo = Couple Three
-
-            if ((coupleOneWinner == "a") && (coupleTwoWinner == "c"))
-            {
-                if (a > c)
-                {
-                    coupleThreeWinner = "a";
-                    if (a > e)
-                    {
-                        Console.WriteLine("{0}", a);
-                    }
-                    else
-                    {
-                        Console.WriteLine("{0}", e);
-                    }
-                }
-                else
-                {
-                    coupleThreeWinner = "c";
-                    if (c > e)
-                    {
-                        Console.WriteLine("{0}", c);
-                    }
-                    else
-                    {
-                        Console.WriteLine("{0}", e);
-                    }
-                }
-            }
-            else if ((coupleOneWinner == "a") && (coupleTwoWinner == "d"))
-            {
-                if (a > d)
-                {
-                    coupleThreeWinner = "a";
-                    if (a > e)
-                    {
-                        Console.WriteLine("{0}", a);
-                    }
-                    else
-                    {
-                        Console.WriteLine("{0}", e);
-                    }
-                }
-                else
-                {
-                    coupleThreeWinner = "d";
-                    if (d > e)
-                    {
-                        Console.WriteLine("{0}", d);
-                    }
-                    else
-                    {
-                        Console.WriteLine("{0}", e);
-                    }
-                }
-            }
-            else if ((coupleOneWinner == "b") && (coupleTwoWinner == "c"))
-            {
-                if (b > c)
-                {
-                    coupleThreeWinner = "b";
-                    if (b > e)
-                    {
-                        Console.WriteLine("{0}", b);
-                    }
-                    else
-                    {
-                        Console.WriteLine("{0}", e);
-                    }
-                }
-                else
-                {
-                    coupleThreeWinner = "c";
-                    if (c > e)
-                    {
-                        Console.WriteLine("{0}", c);
-                    }
-                    else
-                    {
-                        Console.WriteLine("{0}", e);
-                    }
-                }
-            }
-            else if ((coupleOneWinner == "b") && (coupleTwoWinner == "d"))
-            {
-                if (b > d)
-                {
-                    coupleThreeWinner = "b";
-                    if (b > e)
-                    {
-                        Console.WriteLine("{0}", b);
-                    }
-                    else
-                    {
-                        Console.WriteLine("{0}", e);
-                    }
-                }
-                else
-                {
-                    coupleThreeWinner = "d";
-                    if (d > e)
-                    {
-                        Console.WriteLine("{0}", d);
-                    }
-                    else
-                    {
-                        Console.WriteLine("{0}", e);
-                    }
-                }
-            }
         }
     }
 }

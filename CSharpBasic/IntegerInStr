@@ -1,0 +1,121 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Въведете число между 0 и 999: ");
+            int n = int.Parse(Console.ReadLine());
+
+            int ones = n % 10;
+            int tens = (n / 10) % 10;
+            int hundrets = n / 100;
+
+
+            if (n < 1000 && n >= 0)
+            {
+                if (ones == 0 && tens == 0 && hundrets == 0)
+                {
+                    Console.WriteLine("нула");
+                }
+                if (hundrets != 0)
+                {
+                    switch (hundrets)
+                    {
+                        case 1: Console.Write("сто "); break;
+                        case 2: Console.Write("двеста "); break;
+                        case 3: Console.Write("триста "); break;
+                        case 4: Console.Write("четиристотин "); break;
+                        case 5: Console.Write("петстотин "); break;
+                        case 6: Console.Write("шестстотин "); break;
+                        case 7: Console.Write("седемстотин "); break;
+                        case 8: Console.Write("осемстотин "); break;
+                        case 9: Console.Write("деветстотин "); break;
+                        case 0:
+                            break;
+                            Console.WriteLine();
+
+                    }
+
+                }
+                if (hundrets != 0 && tens == 0 && ones != 0)
+                {
+                    Console.Write("и ");
+                }
+
+                if (tens != 0)
+                {
+                    switch (tens)
+                    {
+                        case 1:
+                            if (tens == 1)
+                            {
+                                if (hundrets != 0)
+                                {
+                                    Console.Write("и ");
+                                }
+                                switch (ones)
+                                {
+                                    case 1: Console.Write("единадесет"); break;
+                                    case 2: Console.Write("дванадесет"); break;
+                                    case 3: Console.Write("тринадесет"); break;
+                                    case 4: Console.Write("четиринадесет"); break;
+                                    case 5: Console.Write("петнадесет"); break;
+                                    case 6: Console.Write("шестнадесет"); break;
+                                    case 7: Console.Write("седемнадесет"); break;
+                                    case 8: Console.Write("осемнадесет"); break;
+                                    case 9: Console.Write("деветнадесет"); break;
+                                    case 0: Console.Write("десет"); break;
+
+                                }
+                            }; break;
+                        case 2: Console.Write("двадесет"); break;
+                        case 3: Console.Write("тридесет"); break;
+                        case 4: Console.Write("четиридесет"); break;
+                        case 5: Console.Write("петдесет"); break;
+                        case 6: Console.Write("шестдесет"); break;
+                        case 7: Console.Write("седемдесет"); break;
+                        case 8: Console.Write("осемдесет"); break;
+                        case 9: Console.Write("деветдесет"); break;
+                        case 0:; break;
+
+                    }
+                }
+                if (tens != 0 && tens != 1 && ones != 0)
+                {
+                    Console.Write(" и ");
+                }
+                if (ones > 0 && tens != 1)
+                {
+                    switch (ones)
+                    {
+                        case 1: Console.Write("едно"); break;
+                        case 2: Console.Write("две"); break;
+                        case 3: Console.Write("три"); break;
+                        case 4: Console.Write("четири"); break;
+                        case 5: Console.Write("пет"); break;
+                        case 6: Console.Write("шест"); break;
+                        case 7: Console.Write("седем"); break;
+                        case 8: Console.Write("осем"); break;
+                        case 9: Console.Write("девет"); break;
+                        case 0:
+                            ; break;
+
+                    }
+                }
+                Console.WriteLine();
+            }
+            else
+            {
+                Console.WriteLine("invalid number");
+            }
+
+        }
+    }
+}

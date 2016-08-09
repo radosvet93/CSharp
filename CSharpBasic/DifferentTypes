@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int input = int.Parse(Console.ReadLine());
+            switch (input)
+            {
+                case 0:
+                    int a = int.Parse(Console.ReadLine());
+                    Console.WriteLine(a + 1); break;
+                case 1:
+                    double b = double.Parse(Console.ReadLine());
+                    Console.WriteLine(b + 1); break;
+                default:
+                    string c = Console.ReadLine();
+                    Console.WriteLine(c + "*"); break;
+            }
+
+        }
+    }
+}

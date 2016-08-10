@@ -1,0 +1,67 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Numerics;
+
+namespace test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int karta = 2; karta <= 14; karta++)
+            {
+                for (int color = 1; color < 5; color++)
+                {
+                    if (karta < 10)
+                    {
+                        Console.Write(" " + karta);
+                    }
+                    if (karta == 10)
+                    {
+                        Console.Write(" " + karta);
+                    }
+                    if (karta == 11)
+                    {
+                        Console.Write(" J");
+                    }
+                    if (karta == 12)
+                    {
+                        Console.Write(" Q");
+                    }
+                    if (karta == 13)
+                    {
+                        Console.Write(" K");
+                    }
+                    if (karta == 14)
+                    {
+                        Console.Write(" A");
+                    }
+                    if (color == 1)
+                    {
+                        Console.Write(" Spade");
+                    }
+                    if (color == 2)
+                    {
+                        Console.Write(" Diamond");
+                    }
+                    if (color == 3)
+                    {
+                        Console.Write(" Heart");
+                    }
+                    if (color == 4)
+                    {
+                        Console.Write(" Clubs");
+                    }
+                }
+                Console.WriteLine();
+
+                {
+
+                }
+            }
+        }
+    }
+}

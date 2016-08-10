@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Numerics;
+
+namespace test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("enter a number");
+            int n = int.Parse(Console.ReadLine());
+            int counter;
+            int minNumber = Int32.MaxValue;
+            int maxNumber = 0;
+
+            for (counter = 0; counter < n; counter++)
+            {
+                Console.WriteLine("Next number");
+                int nextNumber = int.Parse(Console.ReadLine());
+                if(minNumber > nextNumber)
+                {
+                    minNumber = nextNumber;
+                }
+                if(maxNumber < nextNumber)
+                {
+                    maxNumber = nextNumber;
+                }
+            }
+
+            Console.WriteLine("max= " + maxNumber);
+            Console.WriteLine("min= " + minNumber);
+
+        }
+    }
+}

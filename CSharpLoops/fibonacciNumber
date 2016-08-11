@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Numerics;
+
+namespace test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter Fibonacci number");
+            int n = int.Parse(Console.ReadLine());
+            int a = 0;
+            int b = 1;
+            int sum = 0;
+            Console.WriteLine();
+            for (int i = 1; i < n; i++)
+            {
+                sum = a + b;
+                a = b;
+                b = sum;
+                Console.WriteLine(sum);
+            }
+            
+        }
+    }
+}

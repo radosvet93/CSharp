@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace example
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Length of First Array");
+            string enterLength = Console.ReadLine();
+            int firstArrayLen = int.Parse(enterLength);
+            int[] firstArray = new int[firstArrayLen];
+
+            Console.WriteLine("Length of Second Array");
+            enterLength = Console.ReadLine();
+            int secondArrayLen = int.Parse(enterLength);
+            int[] secondArray = new int[secondArrayLen];
+
+            if (firstArray.GetLength(0) != secondArray.GetLength(0))
+            {
+                Console.WriteLine("First array = second array - > false");
+            }
+            else
+            {
+                string enterNum = "";
+                Console.WriteLine("Elements of 1 array");
+                for (int i = 0; i < firstArray.GetLength(0); i++)
+                {
+                    enterNum = Console.ReadLine();
+                    firstArray[i] = int.Parse(enterNum);
+                }
+
+                Console.WriteLine("Elements of 2 array");
+                for (int i = 0; i < secondArray.GetLength(0); i++)
+                {
+                    enterNum = Console.ReadLine();
+                    secondArray[i] = int.Parse(enterNum);
+                }
+                bool isEqual = true;
+                for (int i = 0; i < firstArray.GetLength(0); i++)
+                {
+                    if (firstArray[i] != secondArray[i])
+                    {
+                        isEqual = false;
+                        break;
+                    }
+                }
+                Console.WriteLine("first array = second array - > {0}", isEqual);
+            }
+
+
+        }
+    }
+}

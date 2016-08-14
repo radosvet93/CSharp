@@ -1,0 +1,77 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace example
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("First array length");
+            string enterLength = Console.ReadLine();
+            int firstArrayLength = int.Parse(enterLength);
+
+            Console.WriteLine("Second array length");
+            enterLength = Console.ReadLine();
+            int secondArrayLength = int.Parse(enterLength);
+
+            Console.WriteLine("Enter 1 array");
+            if (firstArrayLength == secondArrayLength)
+            {
+                char[] firstArray = new char[firstArrayLength];
+                for (int index = 0; index < firstArray.Length; index++)
+                {
+                    firstArray[index] = char.Parse(Console.ReadLine());
+                }
+                Console.WriteLine("Enter 2 array");
+                char[] secondArray = new char[secondArrayLength];
+                for (int index = 0; index < firstArray.Length; index++)
+                {
+                    secondArray[index] = char.Parse(Console.ReadLine());
+                }
+
+                int firstPositionArray = 0;
+                for (int count = 0; count < firstArray.Length; count++)
+                {
+                    if (firstArray[count] != secondArray[count])
+                    {
+                        if (firstArray[count] < secondArray[count])
+                        {
+                            firstPositionArray = 1;
+                            break;
+                        }
+                        else
+                        {
+                            firstPositionArray = 2;
+                            break;
+                        }
+                    }
+                }
+                if (firstPositionArray == 1)
+                {
+                    Console.WriteLine("First is : First array.");
+                }
+                else if (firstPositionArray == 2)
+                {
+                    Console.WriteLine("First is : Second array.");
+                }
+                else if (firstPositionArray == 0)
+                {
+                    Console.WriteLine("First array = Second array");
+                }
+            }
+            else if (firstArrayLength < secondArrayLength)
+            {
+                Console.WriteLine("First is : First array.");
+            }
+            else
+            {
+                Console.WriteLine("First is : Second array.");
+            }
+        }
+    }
+}
+

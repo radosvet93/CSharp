@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace cristmasTree
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine(new String(' ',n+1)+
+                new String('|',1)+
+                new String(' ',1));
+            int blanks = n - 1;
+            int stars = 1;
+            for (int i = 1; i <= n; i++)
+            {
+                Console.Write(new String(' ',blanks)+
+                    new String('*',stars)+
+                    " | " +
+                    new String('*',stars));
+
+                blanks--;
+                stars++;
+                Console.WriteLine();
+            }
+
+        }
+    }
+}

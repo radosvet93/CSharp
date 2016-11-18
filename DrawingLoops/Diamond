@@ -1,0 +1,65 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace diamant
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var n = int.Parse(Console.ReadLine());
+            //odd
+            var leftRight = (n - 1) / 2;
+            var middle = 1;
+            var stars = 1;
+            if (n % 2 == 0)
+            {
+                //even
+                leftRight = (n - 2) / 2;
+                middle = 2;
+                stars = 2;
+            }
+
+
+            Console.WriteLine("{0}{1}{0}", new string('-', leftRight), new string('*',stars));
+
+            if (n != 1 && n !=2)
+            {
+                leftRight--;
+
+                for (int i = 1; i <= (n - 1) / 2; i++)
+                {
+                    Console.Write(new string('-', leftRight));
+                    Console.Write('*');
+                    Console.Write(new string('-', middle));
+                    Console.Write('*');
+                    Console.Write(new string('-', leftRight));
+
+                    middle += 2;
+                    leftRight--;
+                    Console.WriteLine();
+                }
+
+                leftRight = (n - n) + 1;
+                middle -= 4;
+
+                for (int i = 1; i < (n - 1) / 2; i++)
+                {
+                    Console.Write(new string('-', leftRight));
+                    Console.Write('*');
+                    Console.Write(new string('-', middle));
+                    Console.Write('*');
+                    Console.Write(new string('-', leftRight));
+
+                    middle -= 2;
+                    leftRight++;
+                    Console.WriteLine();
+                }
+                
+            }
+        }
+    }
+}

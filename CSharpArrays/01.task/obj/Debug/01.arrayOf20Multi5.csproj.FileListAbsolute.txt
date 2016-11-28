@@ -1,6 +1,0 @@
-C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\01.task\bin\Debug\01.task.exe.config
-C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\01.task\obj\Debug\01.task.exe
-C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\01.task\obj\Debug\01.task.pdb
-C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\01.task\bin\Debug\01.task.exe
-C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\01.task\bin\Debug\01.task.pdb
-C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\01.task\obj\Debug\01.arrayOf20Multi5.csprojResolveAssemblyReference.cache

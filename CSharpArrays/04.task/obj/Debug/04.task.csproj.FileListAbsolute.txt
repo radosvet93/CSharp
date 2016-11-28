@@ -1,6 +1,0 @@
-C:\Users\Radosvet\Documents\Visual Studio 2015\Projects\Chapter7\04.task\bin\Debug\04.task.exe.config
-C:\Users\Radosvet\Documents\Visual Studio 2015\Projects\Chapter7\04.task\bin\Debug\04.task.exe
-C:\Users\Radosvet\Documents\Visual Studio 2015\Projects\Chapter7\04.task\bin\Debug\04.task.pdb
-C:\Users\Radosvet\Documents\Visual Studio 2015\Projects\Chapter7\04.task\obj\Debug\04.task.exe
-C:\Users\Radosvet\Documents\Visual Studio 2015\Projects\Chapter7\04.task\obj\Debug\04.task.pdb
-C:\Users\Radosvet\Documents\Visual Studio 2015\Projects\Chapter7\04.task\obj\Debug\04.task.csprojResolveAssemblyReference.cache

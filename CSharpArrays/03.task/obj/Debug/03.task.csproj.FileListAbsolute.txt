@@ -1,0 +1,6 @@
+C:\Users\Radosvet\Documents\Visual Studio 2015\Projects\Chapter7\03.task\bin\Debug\03.task.exe.config
+C:\Users\Radosvet\Documents\Visual Studio 2015\Projects\Chapter7\03.task\bin\Debug\03.task.exe
+C:\Users\Radosvet\Documents\Visual Studio 2015\Projects\Chapter7\03.task\bin\Debug\03.task.pdb
+C:\Users\Radosvet\Documents\Visual Studio 2015\Projects\Chapter7\03.task\obj\Debug\03.task.csprojResolveAssemblyReference.cache
+C:\Users\Radosvet\Documents\Visual Studio 2015\Projects\Chapter7\03.task\obj\Debug\03.task.exe
+C:\Users\Radosvet\Documents\Visual Studio 2015\Projects\Chapter7\03.task\obj\Debug\03.task.pdb

@@ -1,0 +1,3 @@
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\08.task\bin\Debug\08.task.exe.config
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\08.task\obj\Debug\08.task.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\08.task\obj\Debug\08.task.pdb

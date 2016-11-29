@@ -1,0 +1,6 @@
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\13.MergeSortArray\bin\Debug\13.MergeSortArray.exe.config
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\13.MergeSortArray\obj\Debug\13.MergeSortArray.csprojResolveAssemblyReference.cache
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\13.MergeSortArray\bin\Debug\13.MergeSortArray.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\13.MergeSortArray\bin\Debug\13.MergeSortArray.pdb
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\13.MergeSortArray\obj\Debug\13.MergeSortArray.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\13.MergeSortArray\obj\Debug\13.MergeSortArray.pdb

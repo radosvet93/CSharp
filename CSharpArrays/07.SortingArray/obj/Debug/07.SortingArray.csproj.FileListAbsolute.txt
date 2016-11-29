@@ -1,0 +1,4 @@
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\07.task\bin\Debug\07.task.exe.config
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\07.task\obj\Debug\07.task.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\07.task\obj\Debug\07.task.pdb
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\07.SortingArray\bin\Debug\07.SortingArray.exe.config

@@ -1,0 +1,6 @@
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\14.QuickSortArray\bin\Debug\14.QuickSortArray.exe.config
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\14.QuickSortArray\bin\Debug\14.QuickSortArray.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\14.QuickSortArray\bin\Debug\14.QuickSortArray.pdb
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\14.QuickSortArray\obj\Debug\14.QuickSortArray.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\14.QuickSortArray\obj\Debug\14.QuickSortArray.pdb
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\14.QuickSortArray\obj\Debug\14.QuickSortArray.csprojResolveAssemblyReference.cache

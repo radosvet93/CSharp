@@ -1,0 +1,6 @@
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\08.MaxSumSeq\bin\Debug\08.MaxSumSeq.exe.config
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\08.MaxSumSeq\bin\Debug\08.MaxSumSeq.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\08.MaxSumSeq\bin\Debug\08.MaxSumSeq.pdb
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\08.MaxSumSeq\obj\Debug\08.MaxSumSeq.csprojResolveAssemblyReference.cache
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\08.MaxSumSeq\obj\Debug\08.MaxSumSeq.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\08.MaxSumSeq\obj\Debug\08.MaxSumSeq.pdb

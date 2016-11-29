@@ -1,0 +1,5 @@
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\10.FindsSeqOfGivenSum\bin\Debug\10.FindsSeqOfGivenSum.exe.config
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\10.FindsSeqOfGivenSum\bin\Debug\10.FindsSeqOfGivenSum.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\10.FindsSeqOfGivenSum\bin\Debug\10.FindsSeqOfGivenSum.pdb
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\10.FindsSeqOfGivenSum\obj\Debug\10.FindsSeqOfGivenSum.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\10.FindsSeqOfGivenSum\obj\Debug\10.FindsSeqOfGivenSum.pdb

@@ -1,0 +1,5 @@
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\09.MostFrequentNum\bin\Debug\09.MostFrequentNum.exe.config
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\09.MostFrequentNum\bin\Debug\09.MostFrequentNum.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\09.MostFrequentNum\bin\Debug\09.MostFrequentNum.pdb
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\09.MostFrequentNum\obj\Debug\09.MostFrequentNum.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\09.MostFrequentNum\obj\Debug\09.MostFrequentNum.pdb

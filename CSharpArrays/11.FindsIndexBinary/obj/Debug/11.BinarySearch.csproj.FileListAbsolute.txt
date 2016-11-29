@@ -1,0 +1,6 @@
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\11.FindsIndexBinary\bin\Debug\11.FindsIndexBinary.exe.config
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\11.FindsIndexBinary\bin\Debug\11.FindsIndexBinary.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\11.FindsIndexBinary\bin\Debug\11.FindsIndexBinary.pdb
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\11.FindsIndexBinary\obj\Debug\11.BinarySearch.csprojResolveAssemblyReference.cache
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\11.FindsIndexBinary\obj\Debug\11.FindsIndexBinary.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\11.FindsIndexBinary\obj\Debug\11.FindsIndexBinary.pdb

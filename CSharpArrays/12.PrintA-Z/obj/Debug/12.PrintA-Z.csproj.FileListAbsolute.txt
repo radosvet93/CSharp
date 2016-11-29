@@ -1,0 +1,5 @@
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\12.PrintA-Z\bin\Debug\12.PrintA-Z.exe.config
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\12.PrintA-Z\bin\Debug\12.PrintA-Z.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\12.PrintA-Z\bin\Debug\12.PrintA-Z.pdb
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\12.PrintA-Z\obj\Debug\12.PrintA-Z.exe
+C:\Users\Radosvet\documents\visual studio 2015\Projects\Chapter7\12.PrintA-Z\obj\Debug\12.PrintA-Z.pdb
